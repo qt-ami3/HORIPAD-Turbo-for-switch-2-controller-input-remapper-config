@@ -12,4 +12,4 @@ To use, you will need https://github.com/sezanzeb/input-remapper, see download i
 
 5. Check to see the config within input-remapper has updated after saving the changes to the file.
 
-6. Open a terminal and enter; ```input-remapper-control --command autoload```.
+6. Open a terminal and enter; ```input-remapper-control --command autoload```
