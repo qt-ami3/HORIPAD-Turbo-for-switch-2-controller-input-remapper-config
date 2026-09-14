@@ -1,0 +1,299 @@
+[
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 305,
+                "origin_hash": "d1583205a9c289b900971cfa05f21f21"
+            }
+        ],
+        "target_uinput": "gamepad",
+        "output_symbol": "BTN_SOUTH",
+        "mapping_type": "key_macro",
+        "name": "B (bottom) -> Xbox A"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 306,
+                "origin_hash": "d1583205a9c289b900971cfa05f21f21"
+            }
+        ],
+        "target_uinput": "gamepad",
+        "output_symbol": "BTN_EAST",
+        "mapping_type": "key_macro",
+        "name": "A (right) -> Xbox B"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 304,
+                "origin_hash": "d1583205a9c289b900971cfa05f21f21"
+            }
+        ],
+        "target_uinput": "gamepad",
+        "output_symbol": "BTN_NORTH",
+        "mapping_type": "key_macro",
+        "name": "X (top) -> Xbox Y"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 307,
+                "origin_hash": "d1583205a9c289b900971cfa05f21f21"
+            }
+        ],
+        "target_uinput": "gamepad",
+        "output_symbol": "BTN_WEST",
+        "mapping_type": "key_macro",
+        "name": "Y (left) -> Xbox X"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 308,
+                "origin_hash": "d1583205a9c289b900971cfa05f21f21"
+            }
+        ],
+        "target_uinput": "gamepad",
+        "output_symbol": "BTN_TL",
+        "mapping_type": "key_macro",
+        "name": "L -> Xbox LB"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 309,
+                "origin_hash": "d1583205a9c289b900971cfa05f21f21"
+            }
+        ],
+        "target_uinput": "gamepad",
+        "output_symbol": "BTN_TR",
+        "mapping_type": "key_macro",
+        "name": "R -> Xbox RB"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 312,
+                "origin_hash": "d1583205a9c289b900971cfa05f21f21"
+            }
+        ],
+        "target_uinput": "gamepad",
+        "output_symbol": "BTN_SELECT",
+        "mapping_type": "key_macro",
+        "name": "Minus -> Xbox View/Back"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 313,
+                "origin_hash": "d1583205a9c289b900971cfa05f21f21"
+            }
+        ],
+        "target_uinput": "gamepad",
+        "output_symbol": "BTN_START",
+        "mapping_type": "key_macro",
+        "name": "Plus -> Xbox Menu/Start"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 314,
+                "origin_hash": "d1583205a9c289b900971cfa05f21f21"
+            }
+        ],
+        "target_uinput": "gamepad",
+        "output_symbol": "BTN_THUMBL",
+        "mapping_type": "key_macro",
+        "name": "L3 (stick click) -> Xbox LS click"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 315,
+                "origin_hash": "d1583205a9c289b900971cfa05f21f21"
+            }
+        ],
+        "target_uinput": "gamepad",
+        "output_symbol": "BTN_THUMBR",
+        "mapping_type": "key_macro",
+        "name": "R3 (stick click) -> Xbox RS click"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 316,
+                "origin_hash": "d1583205a9c289b900971cfa05f21f21"
+            }
+        ],
+        "target_uinput": "gamepad",
+        "output_symbol": "BTN_MODE",
+        "mapping_type": "key_macro",
+        "name": "Home -> Xbox Guide"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 317,
+                "origin_hash": "d1583205a9c289b900971cfa05f21f21"
+            }
+        ],
+        "target_uinput": "gamepad",
+        "output_symbol": "disable",
+        "mapping_type": "key_macro",
+        "name": "Capture -> no Xbox equivalent"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 318,
+                "origin_hash": "d1583205a9c289b900971cfa05f21f21"
+            }
+        ],
+        "target_uinput": "gamepad",
+        "output_symbol": "disable",
+        "mapping_type": "key_macro",
+        "name": "extra/unused -> no Xbox equivalent"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 310,
+                "origin_hash": "d1583205a9c289b900971cfa05f21f21"
+            }
+        ],
+        "target_uinput": "gamepad",
+        "output_symbol": "event(EV_KEY, BTN_TL2, 1).event(EV_ABS, ABS_Z, 32768).hold().event(EV_KEY, BTN_TL2, 0).event(EV_ABS, ABS_Z, -32768)",
+        "mapping_type": "key_macro",
+        "name": "ZL -> Xbox LT (ABS_Z + BTN_TL2)"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 311,
+                "origin_hash": "d1583205a9c289b900971cfa05f21f21"
+            }
+        ],
+        "target_uinput": "gamepad",
+        "output_symbol": "event(EV_KEY, BTN_TR2, 1).event(EV_ABS, ABS_RZ, 32768).hold().event(EV_KEY, BTN_TR2, 0).event(EV_ABS, ABS_RZ, -32768)",
+        "mapping_type": "key_macro",
+        "name": "ZR -> Xbox RT (ABS_RZ + BTN_TR2)"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 3,
+                "code": 0,
+                "origin_hash": "d1583205a9c289b900971cfa05f21f21"
+            }
+        ],
+        "target_uinput": "gamepad",
+        "output_type": 3,
+        "output_code": 0,
+        "mapping_type": "analog",
+        "deadzone": 0.1,
+        "gain": 1.0,
+        "expo": 0.0,
+        "name": "Left stick X -> ABS_X"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 3,
+                "code": 1,
+                "origin_hash": "d1583205a9c289b900971cfa05f21f21"
+            }
+        ],
+        "target_uinput": "gamepad",
+        "output_type": 3,
+        "output_code": 1,
+        "mapping_type": "analog",
+        "deadzone": 0.1,
+        "gain": 1.0,
+        "expo": 0.0,
+        "name": "Left stick Y -> ABS_Y"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 3,
+                "code": 2,
+                "origin_hash": "d1583205a9c289b900971cfa05f21f21"
+            }
+        ],
+        "target_uinput": "gamepad",
+        "output_type": 3,
+        "output_code": 3,
+        "mapping_type": "analog",
+        "deadzone": 0.1,
+        "gain": 1.0,
+        "expo": 0.0,
+        "name": "Right stick X -> ABS_RX"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 3,
+                "code": 5,
+                "origin_hash": "d1583205a9c289b900971cfa05f21f21"
+            }
+        ],
+        "target_uinput": "gamepad",
+        "output_type": 3,
+        "output_code": 4,
+        "mapping_type": "analog",
+        "deadzone": 0.1,
+        "gain": 1.0,
+        "expo": 0.0,
+        "name": "Right stick Y -> ABS_RY"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 3,
+                "code": 16,
+                "origin_hash": "d1583205a9c289b900971cfa05f21f21"
+            }
+        ],
+        "target_uinput": "gamepad",
+        "output_type": 3,
+        "output_code": 16,
+        "mapping_type": "analog",
+        "deadzone": 0.0,
+        "gain": 1.0,
+        "expo": 0.0,
+        "name": "D-pad X -> ABS_HAT0X"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 3,
+                "code": 17,
+                "origin_hash": "d1583205a9c289b900971cfa05f21f21"
+            }
+        ],
+        "target_uinput": "gamepad",
+        "output_type": 3,
+        "output_code": 17,
+        "mapping_type": "analog",
+        "deadzone": 0.0,
+        "gain": 1.0,
+        "expo": 0.0,
+        "name": "D-pad Y -> ABS_HAT0Y"
+    }
+]
